@@ -1,0 +1,15 @@
+:root {
+    --ion-header-height: 56px; /* Ajusta si es necesario */
+    --ion-footer-height: 56px; /* Ajusta si es necesario */
+  }
+  
+  ion-app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  ion-content {
+    flex: 1;
+  }
+  

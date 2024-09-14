@@ -25,3 +25,9 @@
 #container a {
   text-decoration: none;
 }
+ion-button {
+  transition: background-color 0.3s ease;
+}
+ion-button:hover {
+  background-color: #3880ff;
+}

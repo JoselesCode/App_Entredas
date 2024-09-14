@@ -1,20 +1,36 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>
-      Blank
+      Campeonato DUOC De League Of Leguends
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title> Evento 1 Mapa: </ion-card-title>
+      <ion-card-title> Grieta del Invocador</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button expand="full" routerLink="/grieta">Comprar Entradas</ion-button>
+    </ion-card-content>
+  </ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <img src="assets/img/grieta.jpg" alt="Grieta del Invocador" class="imagen-grieta">
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Evento 2 Mapa: </ion-card-title>
+      <ion-card-title>Abismo de los Lamentos</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button expand="full" routerLink="/abismo">Comprar Entradas</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <img src="assets/img/abismo.jpg" alt="Abismo de los Lamentos" class="imagen-abismo">
+
+
+
 </ion-content>
